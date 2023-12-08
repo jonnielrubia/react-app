@@ -1,0 +1,30 @@
+// ProductDetails.scss
+.product-details-container {
+  .product-details {
+    margin-top: 20px;
+
+    .card {
+      border: 1px solid #6c757d;
+
+      .card-img-top {
+        max-height: 400px;
+        object-fit: cover;
+      }
+
+      .card-body {
+        h5 {
+          color: #007bff;
+        }
+
+        p {
+          color: #6c757d;
+        }
+
+        .btn-primary {
+          background-color: #007bff;
+          border: none;
+        }
+      }
+    }
+  }
+}
